@@ -35,3 +35,4 @@ while True:
 
     # 연결을 닫습니다.
     conn.close()
+
