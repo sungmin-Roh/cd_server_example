@@ -6,7 +6,7 @@ import os
 buildBranch = 'master'
 buildPath = '/workspace/miniserv/lab-socket-programming2'
 
-buildCommand = 'cd ' + buildPath + ' && git stash && git pull origin ' + buildBranch
+buildCommand = 'cd ' + buildPath + ' && git stash && git pull origin ' #+ buildBranch
 
 app = Flask(__name__)
 api = Api(app)
