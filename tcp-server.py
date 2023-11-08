@@ -26,7 +26,7 @@ while True:
     data = conn.recv(BUFFER_SIZE)
 
     # 받은 데이터에 현재 시간을 추가합니다.
-    currentTime = " " + "updated3 !!! " + str(time.time()) + "\r\n"
+    currentTime = " " + "updated4 !!! " + str(time.time()) + "\r\n"
     print(data.decode('utf-8'))
 
     # 데이터에 현재 시간을 추가한 후 클라이언트에 다시 보냅니다.
